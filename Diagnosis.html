@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Connect - Diagnosis Chat</title>
+    <link rel="stylesheet" href="Diagnosis.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="page1">
+            <nav>
+                <img src="CC FINAL LOGO.png" alt="logo" id="logo">
+                <div id="nav-part2">
+                    <h4><a href="dashboard.html">Dashboard</a></h4>
+                    <h4><a href="login.html">Log Out</a></h4>
+                    <h4><a href="#">Help</a></h4>
+                </div>
+            </nav>
+
+            <div id="chat-container">
+                <h2>Diagnosis Chat</h2>
+                <div id="chat-box">
+                    <div id="chat-content"></div>
+                </div>
+                <div id="chat-input">
+                    <input type="text" id="user-input" placeholder="Type your question here...">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Diagnosis.js"></script>
+</body>
+</html>
