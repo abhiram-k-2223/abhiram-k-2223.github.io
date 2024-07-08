@@ -14,7 +14,7 @@ async function sendMessage() {
     document.getElementById("user-input").value = "";
 
     try {
-        const response = await fetch('https://abhiram-866b9.cloudfunctions.net/api/generate', {  // Replace with your Firebase function URL
+        const response = await fetch('http://localhost:3001/generate', {  // Updated URL
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
